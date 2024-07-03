@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="index.html"></a>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <title> Cantonment Public</title>
+</head>
+
+
+
+<body>
+    <header>
+        <nav>
+        <div class="bg-green-900">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row  p-4 items-center">
+                    <div class="mb-4 md:mb-0">
+                        <img src="images/logoo.jpg" alt="Logo" class="w-24">
+                    </div>
+                    <div class="p-3 md:text-left font-semibold">
+                        <a href="index.html" class='text-3xl md:text-3xl  text-white'>Cantonment Public School</a>
+                        <h4 class='text-xl md:text-2xl text-white'>Education | Discipline | Character</h4>
+                        <p class="text-xl text-white">School Code (Board): 1250 | EIIN: 107843</p>
+                    </div>
+                    
+                    <div class="md:ml-auto p-2">
+                        <img class="md:h-14" src="images/mujib.png" alt="Image">
+                        <div class="ml-4">
+                          <button class='py-2 px-3 m-2 bg-orange-500 text-white font-semibold rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>
+                            Online Admission-2024
+                          </button>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+        
+
+
+
+         
+        <div class="flex justify-end mx-auto">
+            <div class="md:hidden right-0 justify-center items-center h-10 w-10 cursor-pointer" onclick="toggleMenu()">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </div>
+    
+            <!-- Menu Items -->
+
+            <ul class="md:flex hidden bg-green-600 text-xl py-3 container mx-auto font-semibold justify-between">
+                <div class="lg:flex lg:items-center h-5px lg:justify-between">
+                    <a href="index.html" class="text-2xl">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </a>
+                </div>
+            
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600">About Us</a>
+                    
+                        <ul class="hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/At%20a%20Glance.html" class="block px-4 py-2 hover:bg-gray-800">At a Glance</a></li>
+                            <li><a href="/History.html" class="block px-4 py-2 hover:bg-gray-800">History</a></li>
+                            <li><a href="/Why%20Study%20At%20ACPS.html" class="block px-4 py-2 hover:bg-gray-800">Why Study At ACPS</a></li>
+                            <li><a href="/Infrastructure.html" class="block px-4 py-2 hover:bg-gray-800">Infrastructure</a></li>
+                            <li><a href="/Achievements.html" class="block px-4 py-2 hover:bg-gray-800">Achievements</a></li>
+                            <li><a href="/News%20&%20Events.html" class="block px-4 py-2 hover:bg-gray-800">News & Events</a></li>
+                        </ul>
+                  
+                </li>
+            
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500">Administration</a>
+                    <ul class="hidden bg-gray-600 lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/At a Glance.html" class="block px-4 py-2 hover:bg-gray-800">At a Glance</a></li>
+                        <li><a href="/Why Study At ACPS.html" class="block px-4 py-2 hover:bg-gray-800">Why Study At ACPS</a></li>
+                        <li><a href="/Infrastructure.html" class="block px-4 py-2 hover:bg-gray-800">Infrastructure</a></li>
+                    </ul>
+                </li>
+                <li><a href='/academic' class='text-xl hover:text-gray-600 duration-500'>Academic</a></li>
+                <li><a href='/admission' class='text-xl hover:text-gray-600 duration-500'>Admission</a></li>
+                <li><a href='/Co-Curriculam' class='text-xl hover:text-gray-600 duration-500'>Co-Curriculam</a></li>
+                <li><a href='/clubs' class='text-xl hover:text-gray-600 duration-500'>Clubs</a></li>
+                <li><a href='/Digital Contents' class='text-xl hover:text-gray-600 duration-500'>Digital Contents</a></li>
+                <li><a href="/Gallery" class='text-xl hover:text-gray-600 duration-500'>Gallery</a></li>
+                <li><a href="/Contract" class='text-xl hover:text-gray-600 duration-500'>Contract</a></li>
+                <li>
+                    <li>
+                        <a href='/login' class='flex items-center text-xl hover:text-blue-600 duration-500'>
+                            <ion-icon name="log-in-outline" class="w-6 h-6 mr-2"></ion-icon>
+                            Login
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </nav>
+    
+        <!--mobile view-->
+        <div id="mobileMenu" class="md:hidden items-center mx-auto justify-between">
+            <ul class="bg-green-700 px-3  items-center">
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">About Us</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/At%20a%20Glance.html" class="block px-4 py-2 hover:bg-gray-800">At a Glance</a></li>
+                            <li><a href="/History.html" class="block px-4 py-2 hover:bg-gray-800">History</a></li>
+                            <li><a href="/Why%20Study%20At%20ACPS.html" class="block px-4 py-2 hover:bg-gray-800">Why Study At ACPS</a></li>
+                            <li><a href="/Infrastructure.html" class="block px-4 py-2 hover:bg-gray-800">Infrastructure</a></li>
+                            <li><a href="/Achievements.html" class="block px-4 py-2 hover:bg-gray-800">Achievements</a></li>
+                            <li><a href="/News%20&%20Events.html" class="block px-4 py-2 hover:bg-gray-800">News & Events</a></li>
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li><a href='/administration' class='text-xl hover:text-blue-600 duration-500'>Administration</a></li>
+                <li><a href='/academic' class='text-xl hover:text-blue-600 duration-500'>Academic</a></li>
+                <li><a href='/admission' class='text-xl hover:text-blue-600 duration-500'>Admission</a></li>
+                <li><a href='/Co-Curriculam' class='text-xl hover:text-blue-600 duration-500'>Co-Curriculam</a></li>
+                <li><a href='/clubs' class='text-xl hover:text-blue-600 duration-500'>Clubs</a></li>
+                <li><a href='/Digital Contents' class='text-xl hover:text-blue-600 duration-500'>Digital Contents</a></li>
+                <li><a href="/Gallery" class='text-xl hover:text-blue-600 duration-500'>Gallery</a></li>
+                <li><a href="/Contract" class='text-xl hover:text-blue-600 duration-500'>Contract</a></li>
+                <li>
+                    <a href='/login' class='flex items-center text-xl hover:text-blue-600 duration-500'>
+                        <ion-icon name="log-in-outline" class="w-6 h-6 mr-2"></ion-icon>
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+    </div>
+</div>
+
+</header>
+<script>
+    function toggleMenu() {
+        let mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('translate-y-full');
+    }
+</script>
+    
+</div>
+
+
+
+<div>
+    <div class="container mx-auto mt-1 p-1 bg-gray-200">
+        <div class="text-2xl font-semibold">
+            <marquee class="text-black-500" behavior="scroll" direction="left" scrollamount="8">
+                Latest News: The independence day
+            </marquee>
+        </div>
+    </div>
+</div>
+    
+    <div class="w-full lg:w-3/3 bg-gray-200 flex  flex-col lg:flex-row justify-between m-auto container mt-1 gap-2">
+        <div class="lg:mt-3 w-full  lg:w-[60%]">
+            <div>
+                <div class="bg-white overflow-hidden">
+                    <div class="flex transition-transform ease-in-out duration-500 transform translate-x-0">
+                        <img class="w-full p-3" src="images/teacher.jpg" alt="Slide 1">
+                       
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <p class="mt-4 p-3 text-2xl font-semibold">Welcome to our college</p>
+                    <hr class="border-black">
+                    <p class="p-3">Contrary to popular belief, 
+                        Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            
+                </div>
+                
+                <div class=" flex flex-col lg:flex-row mt-2 justify-between">
+                    <div class="w-full lg:w-[50%] p-2 bg-white">
+                        <p class="text-xl font-semibold">Achievement</p>
+                        <hr class="border-black"><br>
+                        <div class="flex items-center">
+                            <img src="images/tiger.jpg" alt="" class="w-16 h-16 object-cover">
+                            <p class="ml-3 font-bold uppercase">the speech of a Prime minister</p>
+                        </div>
+                        <a href="https://tailwindcss.com/docs/installation/play-cdn"></a>
+                    </div>
+        
+                    <div class="w-full lg:w-[48%] bg-white mt-4 lg:mt-0">
+                        <p class="mt-3 text-xl font-semibold">Events</p>
+                        <hr class="border-black"><br>
+                        <div class="flex items-center">
+                            <img src="images/tiger.jpg" alt="" class="w-16 h-16 object-cover">
+                            <p class="ml-3 font-bold uppercase">the speech of a Prime minister</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="mt-4 p-3 bg-white">
+                    <p class="text-2xl font-semibold ">Cantonment Public School and college</p>
+                    <hr class="border-black"><br>
+    
+                    
+                    <div>
+                        <video width="100%" height="360" controls>
+                            <source src="your-video-file.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+            </div>
+            
+
+                
+        </div>
+    </div>
+    
+    
+        <div class="font-semibold mt-4l g:w-1/3 lg:mt-0 m-6">
+           
+            <div class="bg-white mt-3">
+                <h1 class="text-2xl ">Golden Jubilee Independence</h1>
+                <hr class="border-black">
+                <div class="flex gap-x-6 mt-3">
+                    <div>
+                        <img src="images/50.png" alt="make" class="w-18 h-18">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fas fa-bullhorn"></i> <a href="https://meet.google.com/"> নোটিশ</a></li>
+                            <li><i class="fas fa-calendar-alt"></i> <a href="https://meet.google.com/"> কার্যক্রম</a></li>
+                            <li><i class="fas fa-image"></i> <a href="https://meet.google.com/"> ছবি গ্যালারি</a></li>
+                            <li><i class="fas fa-video"></i> <a href="https://meet.google.com/"> ভিডিও</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            
+    
+            <!-- Chairman Message -->
+            <div class="mt-8 bg-white ">
+                <a href="https://www.prothomalo.com/">
+                    <h1 class="text-xl">Chairman message</h1>
+                    <hr class="border-black"><br>
+                    <div class="flex items-center">
+                        <img src="images/tiger.jpg" alt="" class="w-16 h-16 object-cover">
+                        <p class="ml-3 uppercase">the speech of a chairman</p>
+                    </div>
+                </a>
+            </div>
+    
+            
+    
+            <!-- Facebook Link -->
+            <div class="mt-8 bg-white">
+                <a href="https://www.prothomalo.com/">
+                    <p class="font-bold text-xl">Facebook Link</p>
+                    <hr class="border-black">
+                    <div class="flex items-center">
+                        <a href="https://www.facebook.com/search/top?q=adamjee%20cantonment%20college">Cantonment Public college</a>
+                    </div>
+                </a>
+            </div>
+    
+            <!-- Visitor Counters -->
+            <div class="mt-8 bg-white">
+                <a href="https://www.prothomalo.com/">
+                    <p class="font-bold text-xl">Visitor Counters</p>
+                    <hr class="border-black"><br>
+                    <div class="flex items-center">
+                        <img src="images/tiger.jpg" alt="" class="w-16 h-16 object-cover">
+                        <p class="ml-3 font-bold uppercase">the speech of a Prime minister</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+    <br>
+</div>
+<hr class="border-black">
+
+
+
+<footer class="bg-green-900 text-xl px-1 text-white py-6">
+    <div class="container mx-auto flex flex-col md:flex-row md:items-center justify-between">
+      <div class="mb-4 md:mb-0">
+        <h4 class="text-lg font-semibold">Quick Links</h4>
+        <hr class="border-black">
+        <ul class="font-semibold">
+            <li><a href="http://www.educationboard.gov.bd/" target="_blank" class="block"><i class="fas fa-graduation-cap mr-2"></i>Education Board</a></li>
+            <li><a href="https://moedu.gov.bd/" target="_blank" class="block"><i class="fas fa-book mr-2"></i>Education Ministry</a></li>
+            <li><a href="https://banbeis.gov.bd/" target="_blank" class="block"><i class="fas fa-building mr-2"></i>Banbeis</a></li>
+            <li><a href="https://banbeis.gov.bd/" target="_blank" class="block"><i class="fas fa-building mr-2"></i>Banbeis</a></li>
+        </ul>
+       
+      </div>
+      <div class="mt-4 md:mt-0">
+        <h4 class="font-semibold">Our Address</h4>
+        <hr class="border-black">
+        <p class="text-lg font-semibold">
+          Adamjee Cantonment Public School,<br>
+          Dhaka Cantonment,<br>
+          Dhaka-1206, Bangladesh.<br>
+          Phone: Army Ex: 8711111-8104 (Office)- 7702 <br>
+          (Principal) | 88-02-9834876<br>
+          Email: <a href="mailto:adamjeeschool@gmail.com" class="text-blue-300">adamjeeschool@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <hr class="border-black mt-6">
+    <div class="container mx-auto flex justify-center mt-4">
+      <p class="text-sm">
+        &copy; 2016 - Adamjee Cantonment Public School. All Rights Reserved. Developed by <a href="#" class="text-blue-300">Your Developer</a>
+      </p>
+    </div>
+  </footer>
+  
+
+</body>
+</html>

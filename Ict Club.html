@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="index.html"></a>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ionicons@5.0.1/dist/ionicons/ionicons.js" nomodule></script>
+    <title> Cantonment Public</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="bg-green-900">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row  p-4 items-center">
+                    <div class="mb-4 md:mb-0">
+                        <img src="images/logoo.jpg" alt="Logo" class="w-24">
+                    </div>
+                    <div class="p-3 md:text-left font-semibold">
+                        <a href="index.html" class='text-3xl md:text-3xl  text-white'>Cantonment Public School</a>
+                        <h4 class='text-xl md:text-2xl text-white'>Education | Discipline | Character</h4>
+                        <p class="text-xl text-white">School Code (Board): 1250 | EIIN: 107843</p>
+                    </div>
+                    
+                    <div class="md:ml-auto p-2">
+                        <img class="md:h-14" src="images/mujib.png" alt="Image">
+                        <div class="ml-4">
+                          <button class='py-2 px-3 m-2 bg-orange-500 text-white font-semibold rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>
+                            Online Admission-2024
+                          </button>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+        
+
+
+
+         
+        <div class="flex justify-between left-0 mx-auto">
+            <div class="md:hidden h-10 w-10 cursor-pointer" onclick="toggleMenu()">
+                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </div>
+    
+            <!-- Menu Items -->
+
+            <ul class="md:flex hidden bg-green-600 p-3 z-50 text-xl  container mx-auto  justify-between">
+                <div class="lg:flex lg:items-center h-5px  lg:justify-between">
+                    <a href="index.html" class="text-2xl">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 flex items-center duration-500">
+                        <i class="fas fa-info-circle mr-2"></i> About Us
+                    </a>
+                    <div class="bg-white">
+                        <ul class=" hidden absolute bg-gray-600 lg:w-48 text-sm text-white group-hover:block">
+                            <li><a href="/At%20a%20Glance.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-eye mr-2"></i> At a Glance
+                            </a></li>
+                            <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                            <li><a href="/History.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-history mr-2"></i> History
+                            </a></li>
+                            <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                            <li><a href="/Why%20Study%20At%20ACPS.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-graduation-cap mr-2"></i> Why Study At ACPS
+                            </a></li>
+                            <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                            <li><a href="/Infrastructure.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-building mr-2"></i> Infrastructure
+                            </a></li>
+                            <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                            <li><a href="/Achievements.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-trophy mr-2"></i> Achievements
+                            </a></li>
+                            <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                            <li><a href="/News%20&%20Events.html" class="block px-4 py-2 hover:bg-gray-800">
+                                <i class="fas fa-newspaper mr-2"></i> News & Events
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 flex items-center duration-500">
+                        <i class="fas fa-cogs mr-2"></i> Administration
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Governing Body.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-users mr-2"></i> Governing Body
+                        </a></li>
+                        <hr class="my-1 border-gray-800">
+                        <li><a href="/Message Chairman.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-user-tie mr-2"></i> Message Chairman
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> 
+                        <li><a href="/Message Principle.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-user-graduate mr-2"></i> Message Principle
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> 
+                        
+                        <li><a href="/Ex-Chairman.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-user-times mr-2"></i> Ex-Chairman
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> 
+                        <li><a href="/Ex-Principle.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-user-minus mr-2"></i> Ex-Principle
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> 
+                        <li><a href="/Teachers Information.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-chalkboard-teacher mr-2"></i> Teacher Information
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> 
+                        <li><a href="/Staff Information.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-users-cog mr-2"></i> Staff Information
+                        </a></li>
+                    </ul>
+                </li>
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="fas fa-graduation-cap mr-2"></i> Academic
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Academic Calendar.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-calendar-alt mr-2"></i> Academic Calendar
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Class Routine.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-table mr-2"></i> Class Routine
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Syllabus & Booklists.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-book mr-2"></i> Syllabus & Booklists
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Suggestion.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-lightbulb mr-2"></i> Suggestion
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Exam Routine.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-clock mr-2"></i> Exam Routine
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Public Exam Result.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-poll mr-2"></i> Public Exam Result
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Notice.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-bell mr-2"></i> Notice
+                        </a></li>
+                    </ul>
+                </li>
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="fas fa-user-graduate mr-2"></i> Admission
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Admission Circuler.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-file-alt mr-2"></i> Admission Circular
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Prospectus.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-book-open mr-2"></i> Prospectus
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Admission Form.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-file-alt mr-2"></i> Admission Form
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Admission Result.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-poll-h mr-2"></i> Admission Result
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Waiting List.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-list-ol mr-2"></i> Waiting List
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Courses.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-graduation-cap mr-2"></i> Courses
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Download Admit Card.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-download mr-2"></i> Download Admit Card
+                        </a></li>
+                    </ul>
+                </li>
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="fas fa-graduation-cap mr-2"></i> Co-Curriculam
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Sports.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-futbol mr-2"></i> Sports
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Tours.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-route mr-2"></i> Tours
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Scout.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-compass mr-2"></i> Scout
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/BNCC.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-users mr-2"></i> BNCC
+                        </a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="fas fa-users mr-2"></i> Clubs
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Ict Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-laptop-code mr-2"></i> Ict Club
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Science Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-flask mr-2"></i> Science Club
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Debate Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-comments mr-2"></i> Debate Club
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Photography Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-camera mr-2"></i> Photography Club
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Cultural Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-music mr-2"></i> Cultural Club
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Languages Club.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-language mr-2"></i> Languages Club
+                        </a></li>
+                    </ul>
+                </li>
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="fas fa-file-alt mr-2"></i> Digital Contents
+                    </a>
+                    <ul class="hidden bg-gray-600  text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/six.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-graduation-cap mr-2"></i> Six
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Seven.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-graduation-cap mr-2"></i> Seven
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Eight.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-graduation-cap mr-2"></i> Eight
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Nine-Ten.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-graduation-cap mr-2"></i> Nine-Ten
+                        </a></li>
+                    </ul>
+                </li>
+                
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 duration-500 flex items-center">
+                        <i class="far fa-images mr-2"></i> Gallery
+                    </a>
+                    <ul class="hidden bg-gray-600 text-sm absolute lg:w-48 text-white group-hover:block mt-2 space-y-2">
+                        <li><a href="/Photos.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="far fa-image mr-2"></i> Photos
+                        </a></li>
+                        <hr class="my-1 border-gray-800"> <!-- Horizontal line -->
+                        <li><a href="/Video.html" class="block px-4 py-2 hover:bg-gray-800">
+                            <i class="fas fa-video mr-2"></i> Videos
+                        </a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="/Contract" class='text-xl hover:text-gray-600 duration-500 flex items-center'>
+                        <i class="fas fa-file-contract mr-2"></i> Contract
+                    </a>
+                </li>
+                <li>
+                    <a href='/login' class='flex items-center text-xl hover:text-blue-600 duration-500'>
+                        <ion-icon name="log-in-outline" class="w-6 h-6 mr-2"></ion-icon>Login</a>
+                </li>
+
+            </ul>
+        </nav>
+    
+        <!--mobile view-->
+        <div id="mobileMenu" class="md:hidden items-center mx-auto justify-between">
+            <ul class="bg-green-700 p-4  items-center">
+                <a href="index.html" class="text-2xl">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">About Us</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/At%20a%20Glance.html" class="block px-4 py-2 hover:bg-gray-800">At a Glance</a></li><hr class="border-black">
+                            <li><a href="/History.html" class="block px-4 py-2 hover:bg-gray-800">History</a></li><hr class="border-black">
+                            <li><a href="/Why%20Study%20At%20ACPS.html" class="block px-4 py-2 hover:bg-gray-800">Why Study At ACPS</a></li><hr class="border-black">
+                            <li><a href="/Infrastructure.html" class="block px-4 py-2 hover:bg-gray-800">Infrastructure</a></li><hr class="border-black">
+                            <li><a href="/Achievements.html" class="block px-4 py-2 hover:bg-gray-800">Achievements</a></li><hr class="border-black">
+                            <li><a href="/News%20&%20Events.html" class="block px-4 py-2 hover:bg-gray-800">News & Events</a></li><hr class="border-black">
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Administration</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Governing Body.html" class="block px-4 py-2 hover:bg-gray-800">Governing Body</a></li><hr class="border-black">
+                            <li><a href="/Message Chairman.html" class="block px-4 py-2 hover:bg-gray-800">Message Chairman</a></li><hr class="border-black">
+                            <li><a href="/Message Principle.html" class="block px-4 py-2 hover:bg-gray-800">Message Principle</a></li><hr class="border-black">
+                            <li><a href="/Ex-Chairman.html" class="block px-4 py-2 hover:bg-gray-800">Ex-Chairman</a></li><hr class="border-black">
+                            <li><a href="/Ex-Principle.html" class="block px-4 py-2 hover:bg-gray-800">Ex-Principle</a></li><hr class="border-black">
+                            <li><a href="/Teachers Information.html" class="block px-4 py-2 hover:bg-gray-800">Teachers Information</a></li><hr class="border-black">
+                            <li><a href="/Staff Information.html" class="block px-4 py-2 hover:bg-gray-800">Staff Information</a></li><hr class="border-black">
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Academic</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Academic Calendar.html" class="block px-4 py-2 hover:bg-gray-800">Academic Calendar</a></li><hr class="border-black">
+                            <li><a href="/Class Routine.html" class="block px-4 py-2 hover:bg-gray-800">Class Routine</a></li><hr class="border-black">
+                            <li><a href="/Syllabus & Booklists.html" class="block px-4 py-2 hover:bg-gray-800">Syllabus & Booklists</a></li><hr class="border-black">
+                            <li><a href="/Suggestion.html" class="block px-4 py-2 hover:bg-gray-800">Suggestion</a></li><hr class="border-black">
+                            <li><a href="/Exam Routine.html" class="block px-4 py-2 hover:bg-gray-800">Exam Routine</a></li><hr class="border-black">
+                            <li><a href="/Public Exam Result.html" class="block px-4 py-2 hover:bg-gray-800">Public Exam Result</a></li><hr class="border-black">
+                            <li><a href="/Notice.html" class="block px-4 py-2 hover:bg-gray-800">Notice</a></li><hr class="border-black">
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Admission</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Admission Circuler.html" class="block px-4 py-2 hover:bg-gray-800">Admission Circular</a></li><hr class="border-black">
+                            <li><a href="/Prospectus.html" class="block px-4 py-2 hover:bg-gray-800">Prospectus</a></li><hr class="border-black">
+                            <li><a href="/Admission Form.html" class="block px-4 py-2 hover:bg-gray-800">Admission Form</a></li><hr class="border-black">
+                            <li><a href="/Admission Result.html" class="block px-4 py-2 hover:bg-gray-800">Admission Result</a></li><hr class="border-black">
+                            <li><a href="/Waiting List.html" class="block px-4 py-2 hover:bg-gray-800">Waiting List</a></li><hr class="border-black">
+                            <li><a href="/Courses.html" class="block px-4 py-2 hover:bg-gray-800">Courses</a></li><hr class="border-black">
+                            <li><a href="/Download Admit Card.html" class="block px-4 py-2 hover:bg-gray-800">Download Admit Card</a></li><hr class="border-black">
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Co-Curriculam</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Sports.html" class="block px-4 py-2 hover:bg-gray-800">Sports</a></li><hr class="border-black">
+                            <li><a href="/Tours.html" class="block px-4 py-2 hover:bg-gray-800">Tours</a></li><hr class="border-black">
+                            <li><a href="/Scout.html" class="block px-4 py-2 hover:bg-gray-800">Scout</a></li><hr class="border-black">
+                            <li><a href="/BNCC.html" class="block px-4 py-2 hover:bg-gray-800">BNCC</a></li><hr class="border-black">
+                            
+                        </ul>
+
+                    </div>
+                    
+                    
+                </li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Clubs</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Ict Club.html" class="block px-4 py-2 hover:bg-gray-800">Ict Club</a></li><hr class="border-black">
+                            <li><a href="/Science Club.html" class="block px-4 py-2 hover:bg-gray-800">Science Club</a></li><hr class="border-black">
+                            <li><a href="/Debate Club.html" class="block px-4 py-2 hover:bg-gray-800">Debate Club</a></li><hr class="border-black">
+                            <li><a href="/Photography Club.html" class="block px-4 py-2 hover:bg-gray-800">Photography Club</a></li><hr class="border-black">
+                            <li><a href="/Cultural Club.html" class="block px-4 py-2 hover:bg-gray-800">Cultural Club</a></li><hr class="border-black">
+                            <li><a href="/Languages Club.html" class="block px-4 py-2 hover:bg-gray-800">Languages Club</a></li><hr class="border-black">
+                            
+                        </ul>
+
+                    </div>
+                </li>
+                
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Digital Contents</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Six.html" class="block px-4 py-2 hover:bg-gray-800">Six</a></li><hr class="border-black">
+                            <li><a href="/Seven.html" class="block px-4 py-2 hover:bg-gray-800">Seven</a></li><hr class="border-black">
+                            <li><a href="/Eight.html" class="block px-4 py-2 hover:bg-gray-800">Eight</a></li><hr class="border-black">
+                            <li><a href="/Nine-Ten.html" class="block px-4 py-2 hover:bg-gray-800">Nine-Ten</a></li><hr class="border-black">
+                            
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="relative group">
+                    <a href="#" class="hover:text-gray-600 font text-xl">Gallery</a>
+                    <div class="bg-white">
+                        <ul class=" hidden bg-gray-600 lg:w-48 text-white group-hover:block">
+                            <li><a href="/Photos.html" class="block px-4 py-2 hover:bg-gray-800">Photo</a></li><hr class="border-black">
+                            <li><a href="/Video.html" class="block px-4 py-2 hover:bg-gray-800">Video</a></li><hr class="border-black">
+                            
+                        </ul>
+
+                    </div>
+                </li>
+                <li><a href="/Contract" class='text-xl hover:text-blue-600 duration-500'>Contract</a></li>
+                <li>
+                    <a href='/login' class='flex items-center text-xl hover:text-blue-600 duration-500'>
+                        <ion-icon name="log-in-outline" class="w-6 h-6 mr-2"></ion-icon>
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+    </div>
+</div>
+
+</header>
+<script>
+    function toggleMenu() {
+        let mobileMenu = document.getElementById('mobileMenu');
+        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('translate-y-full');
+    }
+</script>
+
+
+<div class="bg-gray-300">
+    <div class="flex flex-col md:flex-row mx-auto container gap-3">
+
+        <div class="mt-3 w-full bg-white md:w-2/3">
+            <img src="images/History.jpg" alt="Ict Club">
+
+        </div>
+
+        <div class="lg:w-1/3">
+            <div class="flex items-center bg-white mt-3 p-3 ">
+                <a href="index.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <h1 class="text-2xl  ml-4">/Clubs/Ict Club</h1>
+            </div>
+            <hr class="border-black">
+
+            <div class="text-2xl bg-white  p-3 flex items-center">
+                <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 3l14 9L5 21V3z"></path>
+                </svg>
+                <p>Suggested Video</p>
+            </div>
+            <hr class="border-black">
+
+            <div class="container mx-auto mt-8 p-2 bg-white">
+                <div class="max-w-lg mx-auto">
+                    <video class="w-full" controls>
+                        <source src="images/nature.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <hr>
+            <div class="container mx-auto mt-2 p-2  bg-white text-2xl flex items-center">
+                <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                <p>Related Topics</p>
+            </div>
+            <hr class="border-black">
+
+
+            <div>
+                <a href="Ict Club.html" class="block hover:bg-green-900 transition duration-300">
+                    <div class="text-2xl bg-white p-2 flex items-center">
+                        <i class="fas fa-laptop mr-2"></i>
+                        <p>Ict Club</p>
+                    </div>
+                </a><hr class="border-black">
+               
+                
+                <a href="Science Club.html" class="block hover:bg-green-900 transition duration-300">
+                    <div class="text-2xl bg-white p-2 flex items-center">
+                        <i class="fas fa-flask mr-2"></i>
+                        <p>Science Club</p>
+                    </div>
+                </a><hr class="border-black">
+            
+                
+                    <a href="Debate Club.html" class="block hover:bg-green-900 transition duration-300">
+                        <div class="text-2xl bg-white p-2 flex items-center">
+                            <i class="fas fa-bullhorn mr-2"></i>
+                            <p>Debate Club</p>
+                        </div>
+                    </a><hr class="border-black">
+                
+                    <a href="Photography Club.html" class="block hover:bg-green-900 transition duration-300">
+                        <div class="text-2xl bg-white p-2 flex items-center">
+                            <i class="fas fa-camera mr-2"></i>
+                            <p>Photography Club</p>
+                        </div>
+                    </a><hr class="border-black">
+               
+                
+                    <a href="Cultural Club.html" class="block hover:bg-green-900 transition duration-300">
+                        <div class="text-2xl bg-white p-2 flex items-center">
+                            <i class="fas fa-music mr-2"></i>
+                            <p>Cultural Club</p>
+                        </div>
+                    </a><hr class="border-black">
+                
+                    <a href="Languages Club.html" class="block hover:bg-green-900 transition duration-300">
+                        <div class="text-2xl bg-white p-2 flex items-center">
+                            <i class="fas fa-language mr-2"></i>
+                            <p>Language Club</p>
+                        </div>
+                    </a><hr class="border-black">
+            </div>
+
+        </div>
+    </div><br>
+</div>
+
+    
+<footer class="bg-green-900 text-xl px-1 text-white py-6">
+    <div class="container mx-auto flex flex-col md:flex-row md:items-center justify-between">
+      <div class="mb-4 md:mb-0">
+        <h4 class="text-lg font-semibold">Quick Links</h4>
+        <hr class="border-black">
+        <ul class="font-semibold">
+          <li><a href="http://www.educationboard.gov.bd/" target="_blank" class="block">Education Board</a></li>
+          <li><a href="https://moedu.gov.bd/" target="_blank" class="block">Education Ministry</a></li>
+          <li><a href="https://banbeis.gov.bd/" target="_blank" class="block">Banbeis</a></li>
+          <li><a href="https://banbeis.gov.bd/" target="_blank" class="block">Banbeis</a></li>
+        </ul>
+      </div>
+      <div class="mt-4 md:mt-0">
+        <h4 class="font-semibold">Our Address</h4>
+        <hr class="border-black">
+        <p class="text-lg font-semibold">
+          Adamjee Cantonment Public School,<br>
+          Dhaka Cantonment,<br>
+          Dhaka-1206, Bangladesh.<br>
+          Phone: Army Ex: 8711111-8104 (Office)- 7702 <br>
+          (Principal) | 88-02-9834876<br>
+          Email: <a href="mailto:adamjeeschool@gmail.com" class="text-blue-300">adamjeeschool@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <hr class="border-black mt-6">
+    <div class="container mx-auto flex justify-center mt-4">
+      <p class="text-sm">
+        &copy; 2016 - Adamjee Cantonment Public School. All Rights Reserved. Developed by <a href="#" class="text-blue-300">Your Developer</a>
+      </p>
+    </div>
+  </footer>
+  
+
+
+</body>
+</html>
